@@ -147,6 +147,17 @@ section#corpo {
     
 }
 
+section#corpoHistoria {
+    display: block;
+    width: 860px;
+    float: left;
+    border-right: 1px solid #606060 ;
+    padding-right: 15px;
+    border-left: 1px solid #606060 ;
+    padding-left: 15px;    
+    
+}
+
 aside#lateral {
     display: block;
     width: 350px;
