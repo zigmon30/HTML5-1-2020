@@ -19,6 +19,8 @@ p {
     text-indent: 50px;    
 }
 
+/*configurações do cabeçalho*/
+
 header#cabecalho img#icone {
     position: absolute;
     left: 1020px;
