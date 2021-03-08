@@ -2,5 +2,4 @@
 ![](./anota.jpg)
 
 
-Nome da Tarefa: Etapa 3 do proj
-
+Nome da Tarefa: Etapa 3 do projetos
