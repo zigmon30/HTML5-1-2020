@@ -3,14 +3,17 @@
 
     <head>
         <meta charset="utf-8" />
-        <meta name="viewport" content="Width=device-width, initial-scale=1.0" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Planeta Vegano - Douglas Kelczeski</title>
-        <link rel="stylesheet" type="text/css" href="_css/estilo.css" />
+        <link rel="stylesheet" href="_bootstrap/bootstrap.min.css">
+        <script src="_bootstrap/jquery.min.js"></script>
+        <script src="_bootstrap/popper.min.js"></script>
+        <script src="_bootstrap/bootstrap.min.js"></script>
     </head>
 
 
-    <body>
-        <div id="interface">
+     <body>
+        <div class="container pt-5 my-3 border">
 
             <header id="cabecalho">
 
@@ -47,8 +50,11 @@
 
             </nav>
             </header>
+            
+              <div class="row">
 
-            <section id="corpo">
+
+            <div class="col-sm-7" style="background-color:lavender;">           <!-- lado direito-->
 
 
             <figure class="foto-legenda">
@@ -95,9 +101,9 @@
                 conta do dinamismo desse termo, onde ele se divide em alguns Tipos.
             </p>
 
-    </section>
+            </div>                                                                      <!-- lado direito          -->
 
-    <aside id="lateral">
+    <div class="col-sm-5" style="background-color:lavenderblush;">                       <!-- lado esquerdo          -->
 
             <h3>Os principais tipos de vegetarianismo são:</h3>
             (a) Ovolactovegetarianismo: utiliza ovos, leite e laticínios na sua alimentação.
@@ -111,7 +117,8 @@
             <p>
 
             </p>
-    </aside>
+        </div>
+    </div>
 <footer id="rodape">
 
     Douglas Kelczeski 2021<br />
