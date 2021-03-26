@@ -1,53 +1,46 @@
 <!DOCTYPE html>
 
 <html lang="pt-br">
-    <head>
-        <meta charset="utf-8" />
-        <title>Contatos - Douglas Kelczeski</title>
-        <link rel="stylesheet" type="text/css" href="_css/estilo.css" />
-        <meta name="viewport" content="Width=device-width, initial-scale=1.0" />    
-    </head>
-    
+        <head>
+            <meta charset="utf-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <title>Planeta Vegano - Douglas Kelczeski</title>
+            <link rel="stylesheet" href="_bootstrap/bootstrap.min.css">
+            <script src="_bootstrap/jquery.min.js"></script>
+            <script src="_bootstrap/popper.min.js"></script>
+            <script src="_bootstrap/bootstrap.min.js"></script>
+        </head>
+
     <body>
         <div id="interface">
-            <header id="cabecalho">
+                <div class="jumbotron text-center" style="margin-bottom:0">
+                <h1 id="voltar">Planeta Vegano</h1>
+                <h2>A revolução pode acontecer</h2>
+                    
+                <img id="icone" src="_imagens/iconeCaveira.png" alt="imagem de uma caveira formada
+                                                                     por varios legumes e frutas"
+                                                                    title="caveira de legumes" />
+                    
+                </div>                
+
                 
-            <hgroup>
-            <h1 id="voltar">Planeta Vegano</h1>   
-            <h2>A revolução pode acontecer</h2>      
-            </hgroup>
-                
-            <img id="icone" src="_imagens/iconeCaveira.png" alt="imagem de uma caveira formada
-                                                                 por varios legumes e frutas"
-                                                                title="caveira de legumes" />
             <nav id="menu">            
-            <h1>Menu Principal</h1>
-                    <ul>
-                        <li><a href="index.html" target="_self" title="Va para pagina inicial">
-                            PAGINA iNICIAL:
-                        </a></li>
-                        
-                       <li><a href="fotos.html" target="_self" title="vapara fotos">
-                            Fotos:
-                        </a></li>
+    
+                                <div class="dropdown">
+                                    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                                      Menu
+                                    </button>
+                                    <div class="dropdown-menu">
+                                      <a class="dropdown-item" href="index.html">home</a>
+                                      <a class="dropdown-item" href="fotos.html">Fotos</a>
+                                      <a class="dropdown-item" href="historia.html">Historia</a>
+                                      <a class="dropdown-item" href="ideologia.html">Ideologia</a>
+                                      <a class="dropdown-item" href="noticias.html">Noticia</a>
+                                    </div>
+                                </div>
 
-                        <li><a href="historia.html" target="_self" title="va para historia">
-                            Historia:
-                        </a></li>
-
-                        <li><a href="ideologia.html" target="_self" title="va para ideologia">
-                            Ideologia:
-                        </a></li>
-
-                        <li><a href="noticias.html" target="_self" title="va para noticias">
-                            Noticia:
-                        </a></li>
-                    </ul>
-        
-                
-           
             </nav> 
-            </header>
+            
             
     <section id="corpo">  
                     
@@ -118,14 +111,15 @@
             <br />
             <strong>FACEBOOK:</strong> facebook.com/douglas.kelczeski
         </p>
-    </aside>           
-    <footer id="rodape">
-    Douglas Kelczeski 2021<br />
-    <a href="https://www.facebook.com/groups/230579098792932" target="_blank">Facebook</a> | 
-    <a href="https://www.youtube.com/channel/UCKdJAQY-IrX-4f329hHglOw" target="_blank">Youtube</a> <br />
+    </aside> 
+            
+        <div class="jumbotron text-center" style="margin-bottom:0">
+        Douglas Kelczeski 2021<br />
+        <a href="https://www.facebook.com/groups/230579098792932" target="_blank">Facebook</a> |
+        <a href="https://www.youtube.com/channel/UCKdJAQY-IrX-4f329hHglOw" target="_blank">Youtube</a> <br />
 
-    <a href="#voltar" title="Voutar ao inicio">Clique para voltar ao inicio</a>
-    </footer>             
+        <a href="#voltar" title="Voutar ao inicio">Clique para voltar ao inicio</a>
+        </div>            
         </div>    
     </body>
 
